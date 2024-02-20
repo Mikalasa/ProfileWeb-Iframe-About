@@ -22,3 +22,26 @@ body {
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(164, 155, 155, 0.55) !important;
 }
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #c7c7c7 #0c0c0c;
+}
