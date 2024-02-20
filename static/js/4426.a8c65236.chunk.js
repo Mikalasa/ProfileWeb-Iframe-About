@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprofile_web_iframe_about=self.webpackChunkprofile_web_iframe_about||[]).push([[4426],{4426:(e,a,t)=>{async function o(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addParticleUpdater("color",(async e=>{const{ColorUpdater:a}=await t.e(8800).then(t.bind(t,8800));return new a(e)}),a)}t.d(a,{loadColorUpdater:()=>o})}}]);
+//# sourceMappingURL=4426.a8c65236.chunk.js.map

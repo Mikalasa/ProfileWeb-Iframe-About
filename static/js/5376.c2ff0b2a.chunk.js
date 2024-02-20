@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprofile_web_iframe_about=self.webpackChunkprofile_web_iframe_about||[]).push([[5376],{5376:(e,a,n)=>{async function t(e){let a=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addMover("base",(async()=>{const{BaseMover:e}=await n.e(3046).then(n.bind(n,3046));return new e}),a)}n.d(a,{loadBaseMover:()=>t})}}]);
+//# sourceMappingURL=5376.c2ff0b2a.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprofile_web_iframe_about=self.webpackChunkprofile_web_iframe_about||[]).push([[3888],{3888:(e,a,r)=>{r.d(a,{LineDrawer:()=>i});class i{async draw(e){const{drawLine:a}=await r.e(4598).then(r.bind(r,4598));a(e)}getSidesCount(){return 1}}}}]);
+//# sourceMappingURL=3888.bb431fa1.chunk.js.map

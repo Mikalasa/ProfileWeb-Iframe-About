@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkprofile_web_iframe_about=self.webpackChunkprofile_web_iframe_about||[]).push([[39],{2420:(e,n,a)=>{async function t(e){let n=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addInteractor("particlesLinks",(async e=>{const{Linker:n}=await a.e(9188).then(a.bind(a,9188));return new n(e)}),n)}a.d(n,{loadLinksInteraction:()=>t})}}]);
+//# sourceMappingURL=39.f0b82e35.chunk.js.map
