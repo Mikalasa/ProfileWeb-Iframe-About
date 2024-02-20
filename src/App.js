@@ -3,6 +3,8 @@ import {SparklesPreview} from "./component/common/SparklesPreview";
 import {SpotlightPreview} from "./component/common/SpotlightPreview";
 import {TextGenerateEffectPreview} from "./component/common/TextGenerateEffectPreview";
 import {LayoutGridDemo} from "./component/common/LayoutGridDemo";
+import {isMobile} from "react-device-detect";
+import HobbieText from "./component/Hobbie-text";
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
         <SpotlightPreview />
         <TimeLine />
         <SparklesPreview />
-        <TextGenerateEffectPreview />
+        {!isMobile ? <TextGenerateEffectPreview /> : (<HobbieText />)}
         <LayoutGridDemo />
     </div>
   );
