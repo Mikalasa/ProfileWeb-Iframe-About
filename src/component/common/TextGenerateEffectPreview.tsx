@@ -9,7 +9,7 @@ Using technology to create beauty is a pursuit worth undertaking.`;
 export function TextGenerateEffectPreview() {
     const { ref, inView } = useInView({
         triggerOnce: true,
-        threshold: 0.5,
+        rootMargin: "-100px 0px",
     });
 
     return (
