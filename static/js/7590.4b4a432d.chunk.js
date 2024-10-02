@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprofile_web_iframe_about=self.webpackChunkprofile_web_iframe_about||[]).push([[7590],{7590:(a,e,l)=>{async function r(a){let e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await a.addMover("parallax",(async()=>{const{ParallaxMover:a}=await l.e(9558).then(l.bind(l,9558));return new a}),e)}l.d(e,{loadParallaxMover:()=>r})}}]);
-//# sourceMappingURL=7590.4b4a432d.chunk.js.map

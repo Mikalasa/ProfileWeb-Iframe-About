@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprofile_web_iframe_about=self.webpackChunkprofile_web_iframe_about||[]).push([[1928],{1928:(a,e,t)=>{async function i(a){let e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await a.addParticleUpdater("opacity",(async a=>{const{OpacityUpdater:e}=await t.e(9644).then(t.bind(t,9644));return new e(a)}),e)}t.d(e,{loadOpacityUpdater:()=>i})}}]);
-//# sourceMappingURL=1928.d9ec485a.chunk.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprofile_web_iframe_about=self.webpackChunkprofile_web_iframe_about||[]).push([[4598],{4598:(e,a,i)=>{function o(e){var a;const{context:i,particle:o,radius:t}=e,l=o.shapeData;i.moveTo(-t,0),i.lineTo(t,0),i.lineCap=null!==(a=null===l||void 0===l?void 0:l.cap)&&void 0!==a?a:"butt"}i.d(a,{drawLine:()=>o})}}]);
-//# sourceMappingURL=4598.af7ee5a5.chunk.js.map
