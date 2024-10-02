@@ -36,8 +36,8 @@ const TextFadeIn = ({ text }) => {
 };
 
 function HobbieText() {
-    const text = `Outside the realm of programming, I also have a deep fondness for 3D art, 
-passionate about creating and rendering scenes from the imagination. 
+    const text = `Outside the realm of programming, I also have a deep fondness for 3D art,
+passionate about creating and rendering scenes from the imagination.
 Using technology to create beauty is a pursuit worth undertaking.`;
     return <TextFadeIn text={text} />;
 }
