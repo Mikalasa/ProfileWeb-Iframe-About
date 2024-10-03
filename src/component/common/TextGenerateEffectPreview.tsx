@@ -2,9 +2,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { TextGenerateEffect } from "./text-generate-effect";
 
-const words = `Outside the realm of programming, I also have a deep fondness for 3D art,
-passionate about creating and rendering scenes from the imagination.
-Using technology to create beauty is a pursuit worth undertaking.`;
+const words = `Outside of programming, I have a deep passion for 3D art and enjoy creating and rendering imaginative scenes. Using technology to create beauty is a pursuit I find truly fulfilling.`;
 
 export function TextGenerateEffectPreview() {
     const { ref, inView } = useInView({

@@ -11,7 +11,7 @@ function TimeLine() {
         <VerticalTimeline>
             <VerticalTimelineElement
                 className="vertical-timeline-element--box"
-                date="2023 - Present"
+                date="2023 - 2024"
                 iconStyle={{background: 'rgb(72,79,84)', color: '#fff'}}
                 icon={<SchoolIcon />}
             >
