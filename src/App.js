@@ -12,7 +12,6 @@ function App() {
         <SpotlightPreview />
         <TimeLine />
         <SparklesPreview />
-        {/*{!isMobile ? <TextGenerateEffectPreview /> : (<HobbieText />)}*/}
         <HobbieText />
         <LayoutGridDemo />
     </div>

@@ -10,43 +10,45 @@ function TimeLine() {
     <>
         <VerticalTimeline>
             <VerticalTimelineElement
-                className="vertical-timeline-element--box"
+                className="vertical-timeline-element--education"
                 date="2023 - 2024"
-                iconStyle={{background: 'rgb(72,79,84)', color: '#fff'}}
+                iconStyle={{ background: 'linear-gradient(to bottom, #444, #222)', color: '#fff' }}
                 icon={<SchoolIcon />}
             >
-                <h3 className="vertical-timeline-element-title text-2xl"><strong>Master of Software Development</strong>
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">New Zealand</h4>
-                <p>
-                    {experienceConfig.experience[0].description}
-                </p>
+                <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
+                    <h3 className="text-2xl font-bold text-white">Master of Software Development</h3>
+                    <h4 className="text-lg text-gray-300">New Zealand</h4>
+                    <p className="text-sm text-gray-400">{experienceConfig.experience[0].description}</p>
+                </div>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
-                className="vertical-timeline-element--box"
+                className="vertical-timeline-element--work"
                 date="2022"
-                iconStyle={{background: 'rgb(250,250,250)', color: 'rgb(0,0,0)'}}
+                iconStyle={{ background: '#f8f9fa', color: '#212529' }}
                 icon={<WorkIcon />}
             >
-                <h3 className="vertical-timeline-element-title text-2xl"><strong>Front-end Developer</strong></h3>
-                <h4 className="vertical-timeline-element-subtitle">Shanghai, China</h4>
-                <p>
-                    {experienceConfig.experience[1].description}
-                </p>
+                <div className="p-4 bg-white border rounded-lg shadow-lg">
+                    <h3 className="text-2xl font-bold text-black">Front-end Developer</h3>
+                    <h4 className="text-lg text-gray-500">Shanghai, China</h4>
+                    <p className="text-sm text-gray-700">{experienceConfig.experience[1].description}</p>
+                </div>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
-                className="vertical-timeline-element--box"
+                className="vertical-timeline-element--education"
                 date="2018 - 2021"
-                iconStyle={{background: 'rgb(72,79,84)', color: '#fff'}}
+                iconStyle={{ background: 'linear-gradient(to bottom, #444, #222)', color: '#fff' }}
                 icon={<SchoolIcon />}
             >
-                <h3 className="vertical-timeline-element-title text-2xl"><strong>Bachelor of Creativity</strong></h3>
-                <h4 className="vertical-timeline-element-subtitle">New Zealand</h4>
-                <p>
-                    {experienceConfig.experience[2].description}
-                </p>
+                <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
+                    <h3 className="text-2xl font-bold text-white">Bachelor of Creativity</h3>
+                    <h4 className="text-lg text-gray-300">New Zealand</h4>
+                    <p className="text-sm text-gray-400">{experienceConfig.experience[2].description}</p>
+                </div>
             </VerticalTimelineElement>
         </VerticalTimeline>
+
     </>
   );
 }

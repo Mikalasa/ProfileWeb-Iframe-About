@@ -1,17 +1,30 @@
 export const experienceConfig = {
     "experience": [
         {
-            "description": `During my postgraduate studies, I mastered Java, MySQL database management,
-            server deployment, and RESTful API design. Through various courses and projects,
-            I also enhanced my skills in both front-end and back-end development.
-            These experiences broadened my technical knowledge and gave me a deep understanding of the software development lifecycle,
-            including analysis, design, coding, testing, and maintenance.`
+            "description": (
+                <ul>
+                    <li>Developed expertise in Java, CI/CD pipelines, server deployment, MySQL database management, and RESTful API design during postgraduate studies.</li>
+                    <li>Enhanced front-end and back-end development skills, providing a solid foundation for full-stack development.</li>
+                </ul>
+            )
         },
         {
-            "description": `My primary responsibility at work is developing mobile apps, mainly using JavaScript and TypeScript. I contributed significantly to the development of a file manager app, focusing on UI components and features like file categorization, sorting, and file size and quantity statistics. Additionally, I performed functional and compatibility testing on various development board devices.`
+            "description": (
+                <ul>
+                    <li>Developed three mobile applications for client Huawei on OpenHarmony OS using the ArkUI framework.</li>
+                    <li>Responsible for UI refactoring, core feature implementation, API integration, testing, and debugging to ensure high performance and compatibility on the development board.</li>
+                    <li>Collaborated with cross-functional teams, gaining valuable problem-solving skills and a strong understanding of end-to-end development workflows.</li>
+                </ul>
+            )
         },
         {
-            "description": `During my undergraduate studies, I learned graphic design, game design, 3D design, and web UI/UX design, which included some exposure to HTML, CSS, and JavaScript. I became proficient in the Adobe suite, Maya, C4D, and Substance Painter, among other tools. This experience equipped me with strong design skills and was an unforgettable journey.`
+            "description": (
+                <ul>
+                    <li>Gained expertise in graphic design, game design, 3D modeling, and web UI/UX design during undergraduate studies.</li>
+                    <li>Acquired proficiency in HTML, CSS, and JavaScript.</li>
+                    <li>Became proficient in tools like Adobe Creative Suite, Maya, C4D, and Substance Painter, honing strong design skills and creating a memorable foundation for my career.</li>
+                </ul>
+            )
         }
     ]
-}
+};
