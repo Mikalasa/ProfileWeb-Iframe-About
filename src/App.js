@@ -5,15 +5,18 @@ import {TextGenerateEffectPreview} from "./component/common/TextGenerateEffectPr
 import {LayoutGridDemo} from "./component/common/LayoutGridDemo";
 import {isMobile} from "react-device-detect";
 import HobbieText from "./component/Hobbie-text";
+import ContactForm from "./component/ContactForm";
 
 function App() {
   return (
     <div className="App">
         <SpotlightPreview />
         <TimeLine />
-        <SparklesPreview />
-        <HobbieText />
-        <LayoutGridDemo />
+        <div className="contact-box">
+            <SparklesPreview />
+            <ContactForm />
+        </div>
+
     </div>
   );
 }
