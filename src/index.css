@@ -8,6 +8,9 @@ body {
 .generate-text-box {
     margin: 0 auto;
 }
+html, body {
+    overflow-x: hidden;
+}
 
 .LayoutGridDemo {
     margin: 0 auto;
