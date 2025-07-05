@@ -38,9 +38,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="w-full max-w-2xl mx-auto px-6 py-10 mt-12 bg-[#1e1e1e] bg-opacity-80 backdrop-blur-md rounded-lg shadow-lg">
-            <h2 className="text-3xl font-semibold text-center text-white mb-6">Contact Me</h2>
-
+        <div className="w-full max-w-2xl mx-auto px-6 py-10 bg-[#1e1e1e] bg-opacity-80 backdrop-blur-md rounded-lg shadow-lg">
             {status === 'success' && (
                 <div className="bg-green-600 bg-opacity-20 text-green-400 px-4 py-2 mb-4 rounded text-sm text-center">
                     ✅ Your message has been sent successfully!
